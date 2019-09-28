@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8081
+ADD /target/hellodocker-0.0.1-SNAPSHOT.jar hellodocker-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","hellodocker-0.0.1-SNAPSHOT.jar"]winscp
