@@ -12,17 +12,17 @@ Running Spring boot Applications in docker containers
 1. Create a Spring boot application with Maven/ Gradle build. (Here Maven is used)
 2. Create a DockerFile which will create a docker image
 3. Build docker image by running following command where your DockerFile is present. (Here is at the root of Project)
-   '''bash
+   ```bash
    docker build -f DockerFile -t hellodocker .
-   '''
+   ```
 4. For verifying if image is created, type in following command
-   '''bash
+   ```bash
    docker images
-   '''
+   ```
 5. Run created image by running following command
-   '''bash
+   ```bash
    docker run -p 8081:8081 hellodocker
-   '''
+   ```
    
 For getting better clarity of above steps, you can see snapshot folder
 
