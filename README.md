@@ -1,4 +1,4 @@
-# docker
+# Docker
 Running Spring boot Applications in docker containers
 
 Pre-requiaites:
@@ -18,6 +18,5 @@ Steps for running a Spring boot app in containers
 5. Run created image by running following command
    docker run -p 8081:8081 hellodocker
    
-   
-# For getting better clarity of above steps, you can see snapshot folder
+For getting better clarity of above steps, you can see snapshot folder
 
