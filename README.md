@@ -1,7 +1,7 @@
 # Docker
 Running Spring boot Applications in docker containers
 
-## Pre-requiaites:
+## Pre-requisites:
 1. Java 8
 2. Spring boot 2.1.5
 3. Docker version 1.13.1, build 7f2769b/1.13.1
